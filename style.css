@@ -1,0 +1,84 @@
+body{
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+section.enero{
+    background-color: bisque;
+    text-align: center;
+    position: relative;
+    border: black 3px solid;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+ section.enero td{
+    border: black 2px solid;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+   
+}
+section.enero th{
+    border: black 2px solid;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+}
+section.febrero{
+    background-color: bisque;
+    text-align: right;
+    position: relative;
+    border: black 3px solid;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+}
+section.febrero td, th{
+    border: black 3px solid;
+    border-top: none;
+    border-bottom: none;
+}
+caption.febrero{
+    text-align: right;
+}
+section.marzo{
+    background-color: bisque;
+    text-align: left;
+    position: relative;
+    border: black 3px solid;
+    
+    padding: 10px 30px;
+    margin: 10px;
+    width: 50%;
+}
+
+section.marzo td{
+    border: black 1px solid;
+    font-size: 10px;
+    width: 4em;
+    height: 4em;
+}
+
+section.marzo table{
+    height: 200%;
+}
+section.marzo th{
+    border: none;
+}
+section.marzo caption{
+    text-align: left;
+}
+p.pie{
+    text-align: center;
+}
+footer{
+    background-color: white;
+    border: black 2px solid;
+}
